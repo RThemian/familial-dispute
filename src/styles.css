@@ -1,0 +1,69 @@
+/* styles.css */
+
+:root {
+    --base-font-size: 16px;
+    --color-gray: #c7c7c7;
+    --color-blue: #0fc3ff;
+    --color-yellow: #ffff36;
+    --color-black: #000000;
+    --color-beige: #ffeac9;
+  }
+
+
+  html {
+    font-size: var(--base-font-size);
+  }
+
+  /* styles.css */
+
+/* Add styling for game container */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--color-black);
+    color: var(--color-beige);
+  }
+  
+  /* Add styling for title */
+  .title {
+    font-size: 3.5rem; /* 24px / 16px */
+    margin-bottom: 1.25rem;
+    color: var(--color-yellow) /* 20px / 16px */
+  }
+  
+  /* Define color for Timer and other components */
+  .timer {
+    color: var(--color-beige);
+    font-size: 1.5rem;
+  }
+  
+  .question {
+    color: var(--color-gray);
+    font-size: 2.5rem;
+  }
+  
+  .user-input {
+    margin-top: 1.25rem; /* 20px / 16px */
+    font-size: 3rem;
+  }
+
+  .user-input form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-input input {
+    font-size: 1.25rem; /* 20px / 16px */
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    margin-bottom: 1rem; /* Add spacing between input and button */
+  }
+  
+  .user-input button {
+    font-size: 1rem; /* 16px / 16px */
+    padding: 0.5rem 1rem;
+  }
+  

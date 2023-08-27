@@ -1,0 +1,6 @@
+Create Components:
+Create the necessary components for your game. For example:
+
+GamePage.js: Main game page that displays questions, timer, and user input.
+LoginPage.js: Login page to enter the session code.
+ResultPage.js: Result page to show scores and winners.
